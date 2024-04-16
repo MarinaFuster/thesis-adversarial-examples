@@ -1,0 +1,11 @@
+{
+  "mode": "encode",
+  "training_folder": "data",
+  "image_prefix": "",
+  "encode": {
+
+  },
+  "decode": {
+
+  }
+}
