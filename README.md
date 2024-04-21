@@ -6,6 +6,10 @@ The proposed technique involves the use of auto-encoders with posterior principa
 
 The project was originally uploaded to bitbucket's and it remains posted on the [university's website](https://bitbucket.org/itba/pf-gan/src/master/). Feel free to check it out if you need to understand the progress of development.
 
+## Video Presentation 🎥
+
+https://youtu.be/vYSL3c8j1YA
+
 ## Set up 🛠️
 
 Install virtualenv to keep all your dependencies in one place.
