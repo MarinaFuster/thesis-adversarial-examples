@@ -1,16 +1,30 @@
-## Welcome to our project! ✨
+# Adversarial Examples: Generation Proposal in the Context of Facial Recognition Systems 🕵️
 
-This project was built for a research thesis, which studies the generation of adversarial examples, to challenge and evaluate the feasibility of dodging and impersonation attacks on state-of-the-art facial recognition systems. 
+This project was built for our research thesis, which studies the generation of adversarial examples, to challenge and evaluate the feasibility of dodging and impersonation attacks on state-of-the-art facial recognition systems. 
 
 The proposed technique involves the use of auto-encoders with posterior principal component analysis for its latent space organization. Our results do not favor this technique as feasible for real-world settings but it raises interest questions on the context of adversarial examples generation.
 
-The project was originally uploaded to bitbucket's and it remains posted on the [university's website](https://bitbucket.org/itba/pf-gan/src/master/). Feel free to check it out if you need to understand the progress of development.
+The project was originally uploaded to bitbucket's and it remains posted on the [university's website](https://ri.itba.edu.ar/entities/proyecto%20final%20de%20grado/48fd89bf-ee13-4687-878c-5ed9378d59ca). A translated version of the report has been uploaded [to this repository](https://github.com/MarinaFuster/thesis-adversarial-examples/blob/2a4c44481b700d61c00222cdb0a1bc163ea7e3a3/Final%20Project%20Report%20(translated%20from%20original).pdf).
 
-## Video Presentation 🎥
+## Research Summary 📝
 
-https://youtu.be/vYSL3c8j1YA
+Available now, you can find a [research paper](https://arxiv.org/abs/2404.17760) that summarizes the approach and findings of the thesis.
 
-## Set up 🛠️
+<div align="center">
+    <img src="src/media/paper.gif" width="900" height="300" alt="Alt Text">
+</div>
+
+## Video Presentation 🎙️
+
+We have also uploaded our thesis presentation [online](https://youtu.be/vYSL3c8j1YA). If you're comfortable with spanish (or as your daily learning practice!), we recommend you check it out. It includes Questions and Answers at the end of the 30-minute lecture.
+
+<div align="center">
+    <img src="src/media/presentation.gif" width="800" height="400" alt="Alt Text">
+</div>
+
+## For Developers 🖥️
+
+### Set up 🛠️
 
 Install virtualenv to keep all your dependencies in one place.
 ```bash
@@ -37,7 +51,7 @@ Once you are all done, get out of the virtual environment by running
 deactivate
 ```
 
-## Using TensorBoard 🤖
+### Using TensorBoard 🤖
 
 First make sure you have installed TensorBoard on your virtual environment.
 (Run the "Install Dependencies" step).
@@ -49,7 +63,7 @@ tensorboard --logdir /tmp/pf-logs/20200925-123514
 ```
 This will run the tensorboard server which you can visit in `http://localhost:6006/`
 
-## Autoencoder and PCA 🔍
+### Autoencoder and PCA 🔍
 This project will allow you to use and autoencoder and pca modules to create experiments with Amazon Rekognition.
 Amazon Rekognition is a state-of-the-art Facial Recognition System.
 
